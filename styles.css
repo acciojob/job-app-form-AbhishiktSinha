@@ -1,2 +1,40 @@
 
 /* Your CSS Code here. */
+*{
+	font-family: Arial, sans-serif;
+}
+form{
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+label{
+	margin: 20px 10px 20px 20px;	
+	font-style: italic;
+}
+input{
+	margin: 0 20px 20px 0;
+}
+#gender_m, #gender_f{
+	margin-right: 0;
+}
+button{
+	margin-left:20px;
+	background-color: #035efc;
+	width: 100px;
+	height: 40px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+button:hover{
+	background-color:#013287
+}
+button: active{
+	background-color: white;
+	color: #013287;
+}
+/* Your CSS Code here. */
